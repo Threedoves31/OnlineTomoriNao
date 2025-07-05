@@ -1,7 +1,7 @@
 // 封装 SiliconFlow API 请求
 async function getAIResponse(userMessage, chatHistory = []) {
-    const API_URL = "https://api.siliconflow.cn/v1/chat/completions";
-    const API_KEY = "sk-hjfnoohleoaronmmtvseflopjkyddjaborvkxjmlisqwwwmy";
+    const API_URL = "https://api.siliconflow.cn/v1/chat/completions"; // 硅基也可以替换成其他平台
+    const API_KEY = "在这里写入你的key";
     const modelChosen = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B";
     // 构造 messages 数组（含历史对话）
     const messages = [
